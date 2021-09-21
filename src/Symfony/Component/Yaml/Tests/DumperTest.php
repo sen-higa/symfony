@@ -225,6 +225,7 @@ EOF;
             'slash' => ['/', '/'],
             'backslash' => ['\\', '\\'],
             'del' => ["\x7f", '"\x7f"'],
+            'pad' => ["\xc2\x80", '"\x80"'],
             'next-line' => ["\xC2\x85", '"\\N"'],
             'non-breaking-space' => ["\xc2\xa0", '"\\_"'],
             'line-separator' => ["\xE2\x80\xA8", '"\\L"'],
